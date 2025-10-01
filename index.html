@@ -1,293 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>John Smith - Profile</title>
-
-   <!-- Google Fonts -->
-   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
-   <!-- Main Stylesheet -->
-   <link rel="stylesheet" href="styles.css" />
-   <!-- AOS Animation Library -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-   <!-- Font Awesome for Social Icons -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scott Hopley | CV Website</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-   <header>
-      <div class="header-container">
-         <div class="header-left">
-            <h1>Scott Hopley</h1>
-         </div>
-         <div class="header-right">
-            <button class="menu-toggle" id="menu-toggle">
-               <i class="fas fa-bars"></i>
-            </button>
-            <nav id="nav-menu">
-               <ul>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#experience">Experience</a></li>
-                  <li><a href="#education">Education</a></li>
-                  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#portfolio">Portfolio</a></li>
-                  <li><a href="#skills">Skills</a></li>
-                  <li><a href="#achievements">Achievements</a></li>
-                  <li><a href="#publications">Publications</a></li>
-                  <li><a href="#testimonials">Testimonials</a></li>
-                  <li><a href="#contact">Contact</a></li>
-               </ul>
-            </nav>
-            <button class="dark-mode-toggle" id="dark-mode-toggle">
-               <i class="fas fa-moon"></i>
-            </button>
-         </div>
-      </div>
-   </header>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Scott Hopley</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-   <main>
-      <!-- Hero Section -->
-      <section id="hero" class="hero" data-aos="fade-up">
-         <div class="hero-content">
-            <img src="https://dummyimage.com/200x200/cccccc/ffffff.png&text=Photo" alt="John Smith Photo" class="hero-photo" />
-            <div class="hero-text">
-               <h2>Welcome to My Professional Portfolio</h2>
-               <p>Innovative Intern | Aspiring Business Leader &amp; Software Engineer</p>
-               <a href="#contact" class="button">Download Resume</a>
-            </div>
-         </div>
-      </section>
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Driven third-year Economics student, currently on a 13-month placement at HPE, with a strong academic foundation and a keen interest in finance and environmental economics.</p>
+    <a href="Scott_Hopley_CV.pdf" class="button" target="_blank">Download CV</a>
+  </section>
 
-      <!-- About Section -->
-      <section id="about" data-aos="fade-up">
-         <h2>About Me</h2>
-         <p>
-            I am a driven and curious individual with a passion for technology and
-            business innovation. My interests range from cloud computing and data
-            analytics to strategic planning and market research. Throughout my academic
-            and internship experiences, I’ve developed strong problem-solving skills
-            and an aptitude for collaborating across teams. In my spare time, I enjoy
-            learning new programming languages, exploring emerging tech trends, and
-            brainstorming ways to make processes more efficient. My goal is to leverage
-            my technical background and business acumen to create impactful solutions
-            that address real-world challenges.
-         </p>
-      </section>
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <h2>Work Experience</h2>
+    <div class="card">
+      <h3>Channel Sales Support Intern - HPE</h3>
+      <p>Analysed and forecasted partner performance while supporting the channel sales team in driving growth.</p>
+    </div>
+    <div class="card">
+      <h3>Lifeguard - Coral Reef Waterworld</h3>
+      <p>Team Leader training lifeguards and leading workshops on first aid and SEN sensitivity. Developed strong teamwork, leadership and communication in high-pressure environments.</p>
+    </div>
+    <div class="card">
+      <h3>Sports4Kids</h3>
+      <p>Delivered engaging and safe sports coaching to children, developing teamwork and sportsmanship.</p>
+    </div>
+  </section>
 
-      <!-- Experience Section -->
-      <section id="experience" data-aos="fade-up">
-         <h2>Experience</h2>
-         <div class="experience-cards">
+  <!-- Education -->
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <div class="card">
+      <h3>BSc Economics | Nottingham Business School</h3>
+      <p>Achieved a 1st in 2nd year. Strong performance in Quantitative Methods, Finance for Economists, and Economic Policy.</p>
+    </div>
+    <div class="card">
+      <h3>A-Levels | Ranelagh School</h3>
+      <p>Biology (B), Chemistry (B), Maths (B)</p>
+    </div>
+    <div class="card">
+      <h3>GCSEs | Ranelagh School</h3>
+      <p>10 subjects including Geography (9), Biology (9), Chemistry (9), Maths (8)</p>
+    </div>
+  </section>
 
-            <!-- Experience 1 -->
-            <div class="experience-card" data-aos="zoom-in" data-aos-delay="100">
-               <h3>Software Engineering Intern</h3>
-               <p><em>HPE | 2024 - 2025</em></p>
-               <p>
-                  Worked on developing scalable cloud solutions and contributed to
-                  key features in our enterprise software suite.
-               </p>
-            </div>
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Data Analysis & Forecasting</li>
+      <li>Leadership & Teamwork</li>
+      <li>Financial & Economic Modelling</li>
+      <li>Communication & Presentation</li>
+    </ul>
+  </section>
 
-            <!-- Experience 2 -->
-            <div class="experience-card" data-aos="zoom-in" data-aos-delay="150">
-               <h3>Marketing &amp; Sales Intern</h3>
-               <p><em>ABC Corp | Summer 2024</em></p>
-               <p>
-                  Assisted in market research and digital campaign management,
-                  contributing to a 15% increase in lead generation.
-               </p>
-            </div>
+  <!-- Achievements -->
+  <section id="achievements" class="section">
+    <h2>Achievements</h2>
+    <p>Captain of Bracknell RFC Colts, leading the team to their first Division 1 win in 15 years. Volunteer at Youthline, supporting community initiatives.</p>
+  </section>
 
-            <!-- Experience 3 -->
-            <div class="experience-card" data-aos="zoom-in">
-               <h3>Project Management Intern</h3>
-               <p><em>XYZ Solutions | Summer 2023</em></p>
-               <p>
-                  Assisted in organizing cross-functional teams, defining project
-                  deliverables, and managing schedules to ensure timely completion of
-                  initiatives.
-               </p>
-            </div>
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:scott.hopley@btinternet.com">scott.hopley@btinternet.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/scott-hopley-7903a02a5/" target="_blank">linkedin.com/in/scott-hopley</a></p>
+  </section>
 
-            <!-- Experience 4 -->
-            <div class="experience-card" data-aos="zoom-in" data-aos-delay="50">
-               <h3>Business Operations Intern</h3>
-               <p><em>GlobalTech | Summer 2022</em></p>
-               <p>
-                  Analyzed operational workflows, identified bottlenecks, and recommended
-                  process improvements that resulted in cost savings and increased efficiency.
-               </p>
-            </div>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Scott Hopley</p>
+  </footer>
 
-         </div>
-      </section>
-
-      <!-- Education Section -->
-      <section id="education" data-aos="fade-up">
-         <h2>Education</h2>
-         <div class="education-cards">
-            <!-- Education 1 -->
-            <div class="education-card" data-aos="zoom-in">
-               <h3>Bachelor of Science in Computer Science</h3>
-               <p><em>University of Innovation, 2021 – 2025</em></p>
-               <p>
-                  Focused on software development, data structures, and business analytics.
-               </p>
-            </div>
-            <!-- Education 2 -->
-            <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
-               <h3>Certificate in Digital Marketing</h3>
-               <p><em>Online Program, 2023</em></p>
-               <p>
-                  Learned key strategies for digital engagement and data-driven marketing campaigns.
-               </p>
-            </div>
-         </div>
-      </section>
-
-      <!-- Projects Section -->
-      <section id="projects" data-aos="fade-up">
-         <h2>Projects</h2>
-         <div class="project-cards">
-
-            <!-- Project 1 -->
-            <div class="project-card" data-aos="zoom-in">
-               <img src="https://dummyimage.com/300x200/cccccc/ffffff.png&text=Project+1" alt="Project 1" />
-               <h3>Project One</h3>
-               <p>
-                  Developed an innovative application to optimize business workflows
-                  using cutting-edge technologies.
-               </p>
-               <a href="#" class="button">Learn More</a>
-            </div>
-
-            <!-- Project 2 -->
-            <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
-               <img src="https://dummyimage.com/300x200/cccccc/ffffff.png&text=Project+2" alt="Project 2" />
-               <h3>Project Two</h3>
-               <p>
-                  Created a dynamic data visualization tool that enhances
-                  decision-making processes in real time.
-               </p>
-               <a href="#" class="button">Learn More</a>
-            </div>
-
-         </div>
-      </section>
-
-      <!-- Portfolio Section -->
-      <section id="portfolio" data-aos="fade-up">
-         <h2>Portfolio</h2>
-         <div class="project-cards">
-            <!-- Portfolio Item 1 -->
-            <div class="project-card" data-aos="zoom-in">
-               <img src="https://dummyimage.com/300x200/cccccc/ffffff.png&text=Work+Sample+1" alt="Work Sample 1" />
-               <h3>Business Strategy Analysis</h3>
-               <p>
-                  A comprehensive study on optimizing business workflows and improving market reach.
-               </p>
-               <a href="#" class="button">Learn More</a>
-            </div>
-            <!-- Portfolio Item 2 -->
-            <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
-               <img src="https://dummyimage.com/300x200/cccccc/ffffff.png&text=Work+Sample+2" alt="Work Sample 2" />
-               <h3>Creative Campaign Design</h3>
-               <p>
-                  Designed a multi-channel marketing campaign that increased customer engagement.
-               </p>
-               <a href="#" class="button">Learn More</a>
-            </div>
-         </div>
-      </section>
-
-      <!-- Skills & Competencies Section -->
-      <section id="skills" data-aos="fade-up">
-         <h2>Skills &amp; Competencies</h2>
-         <ul>
-            <li>Cloud Computing &amp; Software Development</li>
-            <li>Digital Marketing &amp; Social Media Strategy</li>
-            <li>Data Analysis &amp; Business Intelligence</li>
-            <li>Project Management &amp; Team Collaboration</li>
-            <li>Creative Problem Solving</li>
-         </ul>
-      </section>
-
-      <!-- Achievements & Awards Section -->
-      <section id="achievements" data-aos="fade-up">
-         <h2>Achievements &amp; Awards</h2>
-         <div class="experience-cards">
-            <div class="experience-card" data-aos="zoom-in">
-               <h3>Dean's List</h3>
-               <p><em>University of Innovation, 2022</em></p>
-               <p>Recognized for academic excellence in computer science.</p>
-            </div>
-            <div class="experience-card" data-aos="zoom-in" data-aos-delay="100">
-               <h3>Marketing Excellence Award</h3>
-               <p><em>ABC Corp, 2024</em></p>
-               <p>Awarded for outstanding contributions to digital campaign success.</p>
-            </div>
-         </div>
-      </section>
-
-      <!-- Publications & Presentations Section -->
-      <section id="publications" data-aos="fade-up">
-         <h2>Publications &amp; Presentations</h2>
-         <ul>
-            <li>
-               <strong>Innovations in Cloud Computing:</strong> A research paper presented at the Tech Innovators Conference 2024.
-            </li>
-            <li>
-               <strong>Digital Marketing Trends:</strong> A presentation on modern strategies for audience engagement.
-            </li>
-         </ul>
-      </section>
-
-      <!-- Testimonials Section -->
-      <section id="testimonials" data-aos="fade-up">
-         <h2>Testimonials</h2>
-         <blockquote data-aos="zoom-in">
-            “John consistently demonstrates creativity and dedication. His insights have been invaluable to our team.”
-            <footer>&mdash; Jane Doe, Senior Manager</footer>
-         </blockquote>
-         <blockquote data-aos="zoom-in" data-aos-delay="100">
-            “A proactive and talented intern who brings fresh ideas and a collaborative spirit to every project.”
-            <footer>&mdash; Mark Lee, Project Director</footer>
-         </blockquote>
-      </section>
-
-      <!-- Contact Section -->
-      <section id="contact" data-aos="fade-up">
-         <h2>Contact</h2>
-         <div class="contact-container">
-            <p>
-               Feel free to reach out via email:
-               <a href="mailto:johnsmith@example.com">johnsmith@example.com</a>
-            </p>
-            <div class="social-media">
-               <a href="https://www.linkedin.com/in/wjdparkhouse/" target="_blank"><i class="fab fa-linkedin"></i></a>
-               <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-               <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-            </div>
-         </div>
-      </section>
-   </main>
-
-   <!-- Footer Section -->
-   <footer>
-      <!-- Removed footer columns (About Me, Newsletter, Quick Links) -->
-      <p class="footer-bottom">&copy; 20XX John Smith. All rights reserved.</p>
-   </footer>
-
-   <!-- Scripts -->
-   <script src="script.js"></script>
-   <!-- AOS JS -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-   <script>
-      AOS.init();
-   </script>
+  <script src="script.js"></script>
 </body>
-
 </html>
