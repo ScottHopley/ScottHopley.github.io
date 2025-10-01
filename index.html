@@ -6,9 +6,10 @@
   <title>Scott Hopley | CV Website</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+  
 <body>
   <!-- Header -->
-  <header>
+  <header class="fade-in">
     <div class="container">
       <h1>Scott Hopley</h1>
       <nav>
@@ -25,48 +26,48 @@
   </header>
 
   <!-- About Section -->
-  <section id="about" class="section">
+  <section id="about" class="section fade-in">
     <h2>About Me</h2>
     <p>Driven third-year Economics student, currently on a 13-month placement at HPE, with a strong academic foundation and a keen interest in finance and environmental economics.</p>
     <a href="Scott_Hopley_CV.pdf" class="button" target="_blank">Download CV</a>
   </section>
 
   <!-- Experience -->
-  <section id="experience" class="section">
+  <section id="experience" class="section fade-in">
     <h2>Work Experience</h2>
-    <div class="card">
+    <div class="card fade-in">
       <h3>Channel Sales Support Intern - HPE</h3>
       <p>Analysed and forecasted partner performance while supporting the channel sales team in driving growth.</p>
     </div>
-    <div class="card">
+    <div class="card fade-in">
       <h3>Lifeguard - Coral Reef Waterworld</h3>
       <p>Team Leader training lifeguards and leading workshops on first aid and SEN sensitivity. Developed strong teamwork, leadership and communication in high-pressure environments.</p>
     </div>
-    <div class="card">
+    <div class="card fade-in">
       <h3>Sports4Kids</h3>
       <p>Delivered engaging and safe sports coaching to children, developing teamwork and sportsmanship.</p>
     </div>
   </section>
 
   <!-- Education -->
-  <section id="education" class="section">
+  <section id="education" class="section fade-in">
     <h2>Education</h2>
-    <div class="card">
+    <div class="card fade-in">
       <h3>BSc Economics | Nottingham Business School</h3>
       <p>Achieved a 1st in 2nd year. Strong performance in Quantitative Methods, Finance for Economists, and Economic Policy.</p>
     </div>
-    <div class="card">
+    <div class="card fade-in">
       <h3>A-Levels | Ranelagh School</h3>
       <p>Biology (B), Chemistry (B), Maths (B)</p>
     </div>
-    <div class="card">
+    <div class="card fade-in">
       <h3>GCSEs | Ranelagh School</h3>
       <p>10 subjects including Geography (9), Biology (9), Chemistry (9), Maths (8)</p>
     </div>
   </section>
 
   <!-- Skills -->
-  <section id="skills" class="section">
+  <section id="skills" class="section fade-in">
     <h2>Skills</h2>
     <ul class="skills-list">
       <li>Data Analysis & Forecasting</li>
@@ -77,22 +78,34 @@
   </section>
 
   <!-- Achievements -->
-  <section id="achievements" class="section">
+  <section id="achievements" class="section fade-in">
     <h2>Achievements</h2>
     <p>Captain of Bracknell RFC Colts, leading the team to their first Division 1 win in 15 years. Volunteer at Youthline, supporting community initiatives.</p>
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="section">
+  <section id="contact" class="section fade-in">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:scott.hopley@btinternet.com">scott.hopley@btinternet.com</a></p>
     <p>LinkedIn: <a href="https://linkedin.com/in/scott-hopley-7903a02a5/" target="_blank">linkedin.com/in/scott-hopley</a></p>
   </section>
 
   <!-- Footer -->
-  <footer>
+  <footer class="fade-in">
     <p>&copy; 2025 Scott Hopley</p>
   </footer>
+
+  <!-- Chatbot -->
+  <section id="chatbot" class="section fade-in">
+    <h2>Ask Me Anything</h2>
+    <div class="chatbox" id="chatbox">
+      <div id="chatlog"></div>
+      <div class="chat-input">
+        <input type="text" id="userInput" placeholder="Type your question..." />
+        <button id="sendBtn">Send</button>
+      </div>
+    </div>
+  </section>
 
   <script src="script.js"></script>
 </body>
